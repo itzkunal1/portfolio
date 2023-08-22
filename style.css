@@ -143,7 +143,7 @@ span {
     0% {
         background-color: #F7DC4F;
     }
-    
+
     100% {
         background-color: #015761;
         /* Change the background color when animation completes */
@@ -151,78 +151,91 @@ span {
 }
 
 .skills {
-    background-color:white;
+    background-color: white;
     height: 150vh;
     width: 100vw;
-    
-    
+
+
 }
-.line{
-    margin:10vh 0 0 10vw;
+
+.line {
+    margin: 10vh 0 0 10vw;
     display: flex;
 }
-.line div{
+
+.line div {
     margin-left: 10vw;
 }
-.line div p{
+
+.line div p {
     text-align: center;
     font-size: 40px;
-    
+
 }
+
 .skills img {
     height: 30vh;
     width: 25vw;
 }
-.skills h2{
+
+.skills h2 {
     padding-top: 10vh;
     font-size: 10vh;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.clear{
+
+.clear {
     clear: both;
 }
-.contact{
-    background-color:white;
+
+.contact {
+    background-color: white;
     height: 100vh;
     width: 100vw;
     display: flex;
 }
-.contact div{
+
+.contact div {
     height: 101vh;
     width: 50vw;
     background-color: #015761;
 }
-.contimg{
+
+.contimg {
     height: 100vh;
     width: 50vw;
 }
-.contact div p{
+
+.contact div p {
     margin-left: 10vw;
     /* margin-top: 8vh; */
-    text-align:left;
+    text-align: left;
     font-size: 20px;
     color: white;
 }
-.conth1{
+
+.conth1 {
     font-size: 10vh;
     margin-left: 10vw;
     margin-top: 3vh;
-    text-align:left;
+    text-align: left;
     color: #F7DC4F;
-    
+
 }
-.info h2{
+
+.info h2 {
     font-size: 4vh;
     margin-left: 10vw;
     margin-top: 8vh;
-    text-align:left;
+    text-align: left;
     color: #fcfcfb;
 
 
 }
+
 @media screen and (max-width: 480px) {
-.main {
+    .main {
         display: flex;
     }
 
@@ -336,7 +349,7 @@ span {
 
     .btn:hover {
         background-color: #015761;
-        animation: colorChange 0.5s ease-in-out;
+        animation: colorChange 2s ease-in-out;
 
     }
 
@@ -370,7 +383,7 @@ span {
 
     .line div p {
         text-align: center;
-        text-decoration:overline;
+        text-decoration: overline;
         font-size: 20px;
 
     }
@@ -416,21 +429,21 @@ span {
         font-size: 15px;
         color: white;
     }
-    
+
     .conth1 {
         margin-left: 5vw;
         font-size: 6vh;
         margin-top: 3vh;
         text-align: left;
         color: #F7DC4F;
-        
+
     }
-    
+
     .info h2 {
         margin-left: 5vw;
         font-size: 3vh;
         margin-top: 8vh;
         text-align: left;
         color: #fcfcfb;
-}
+    }
 }
